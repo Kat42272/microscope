@@ -120,5 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 AUTH_USER_MODEL = 'custom_user.CustomUser'
-LOGIN_REDIRECT_URL = 'home'
-LOTOUT_REDIRECT_URL = 'home'
+LOGIN_URL = '/login/'
+LOGOUT_REDIRECT_URL = '/'
